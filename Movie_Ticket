@@ -1,7 +1,25 @@
 m=10
-setbooked =0
+seatbooked =0
 sum_income = 0
 cost =0
 row = int(input('Enter no of rows- \n'))
 seat = int(input('Enter no. of seats- \n'))
 Totalseat = row*seat
+booked_t_Person =[[None for j in range(seat)]for i in range(row)]
+class arrangement:
+def araangement_maker():
+seat_arra = { }
+for i in range(row):
+seat_row = { }
+for j in range(Seat):
+seat_row[str(j+1)]= 'S'
+seat_arrangement[str(i)]=seat_row
+return seat_arrangement
+
+def find_percent():
+percent = (seatbooked/Totalseat)*100
+return percent
+
+class_call = arrangetable = class_call.arrangement_maker()
+
+while x!=0
