@@ -1,0 +1,7 @@
+m=10
+setbooked =0
+sum_income = 0
+cost =0
+row = int(input('Enter no of rows- \n'))
+seat = int(input('Enter no. of seats- \n'))
+Totalseat = row*seat
