@@ -22,4 +22,37 @@ return percent
 
 class_call = arrangetable = class_call.arrangement_maker()
 
-while x!=0
+while m!=0
+print('1 for Show the seat \n2 To Buy a Ticket \n3 For Statistics ',
+          '\n4  Show booked Tickets User Info \n0 for Exit')
+    m = int(input('Select Option - '))
+    if m == 1:
+        if seat < 10:
+            for seat in range(seat):
+                print(seat, end='  ')
+            print(seat)
+        else:
+            for seat in range(10):
+                print(seat, end='  ')
+            for seat in range(10, seat):
+                print(seat, end=' ')
+            print(seat)
+              if seat < 10:
+            for num in tablearrange.keys():
+                print(int(num)+1, end='  ')
+                for no in tablearrange[num].values():
+                    print(no, end='  ')
+                print()
+        else:
+            count = 0
+            for num in tablearrange():
+                if int(list(tablearrange.keys())[count]) < 9:
+                    print(int(num)+1, end='  ')
+                else:
+                    print(int(num)+1, end=' ')
+                countk = 0
+                for no in tablearrange[num].values():
+                    if int(list(tablearrange[num].keys())[countk]) <= 10:
+                        print(no, end='  ')
+                    else:
+                        print(no, end='  ')
