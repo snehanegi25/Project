@@ -56,3 +56,4 @@ print('1 for Show the seat \n2 To Buy a Ticket \n3 For Statistics ',
                         print(no, end='  ')
                     else:
                         print(no, end='  ')
+                        print()
