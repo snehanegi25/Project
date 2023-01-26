@@ -14,16 +14,16 @@
     <title></title>
   </head>
   <body>
-    <header class="showcase">
-      <div class="showcase-top">
-        <img src="img/logo.png" alt="Netflix" />
+    <header class="result">
+      <div class="result-top">
+        <img src="imglogo.png" alt="Netflix" />
         <a href="#" class="btn btn-rounded">Sign In</a>
       </div>
-      <div class="showcase-content">
+      <div class="result-content">
         <h1>See what's next</h1>
         <p>Watch anywhere. Cancel anytime</p>
         <a href="#" class="btn btn-xl"
-          >Watch Free For 30 Days <i class="fas fa-chevron-right btn-icon"></i
+          >Watch Free For 7 Days <i class="fas fa-chevron-right btn-icon"></i
         ></a>
       </div>
     </header>
@@ -46,7 +46,7 @@
     </section>
 
     <section class="tab-content">
-      <div class="container">
+      <div class="detail">
         <!-- Tab Content 1 -->
         <div id="tab-1-content" class="tab-content-item show">
           <div class="tab-1-content-inner">
